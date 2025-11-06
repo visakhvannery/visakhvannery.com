@@ -184,7 +184,12 @@
                 
                 <!-- Profile Picture (col-span-1) -->
                 <div class="md:col-span-1 flex justify-center md:justify-start">
-                    <img src="https://placehold.co/200x200/1E293B/E0E7FF?text=Profile+Picture" alt="Visakh V V Profile Picture" class="rounded-full w-48 h-48 object-cover border-4 border-indigo-500 shadow-xl">
+                    <img 
+                        src="profile_600.png" 
+                        onerror="this.onerror=null; this.src='https://placehold.co/200x200/1E293B/E0E7FF?text=Profile+Picture+Placeholder'" 
+                        alt="Visakh V V Profile Picture" 
+                        class="rounded-full w-48 h-48 object-cover border-4 border-indigo-500 shadow-xl"
+                        >
                 </div>
 
                 <!-- Main Text (col-span-2) -->
@@ -449,10 +454,10 @@
 
     </main>
     
-    <!-- FLOATING ACTION BUTTON (FAB) for Resume Download -->
-    <a href="#" download="Visakh_V_V_Resume.pdf" title="Download Resume" class="fixed bottom-8 right-8 z-50 p-4 rounded-full bg-sky-600 text-white shadow-2xl hover:bg-sky-700 transition duration-300 transform hover:scale-105 ring-4 ring-sky-500/50">
+      <!-- FLOATING ACTION BUTTON (FAB) for Resume Download -->
+      <a href="#" download="Visakh_V_V_Resume.pdf" title="Download Resume" class="fixed bottom-8 right-8 z-50 p-4 rounded-full bg-sky-600 text-white shadow-2xl hover:bg-sky-700 transition duration-300 transform hover:scale-105 ring-4 ring-sky-500/50">
         <i data-lucide="download" class="w-6 h-6"></i>
-    </a>
+      </a>
 
     <!-- FOOTER -->
     <footer class="bg-gray-900 border-t border-gray-800 mt-16 py-6">
